@@ -9,7 +9,8 @@ const Home: NextPage = () => {
   <div>
       <Head>
         <title>xinrui chen</title>
-        <meta name="description" content="Personal Website with RTF editor" />
+        <link rel="icon" href="./image.svg" />
+        <meta name="description" content="hi i'm xinrui!" />
       </Head>
       <main>
         <AboutMe />
