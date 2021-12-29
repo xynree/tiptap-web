@@ -8,9 +8,12 @@
 }
 
 
-.editor-width {
-	width: 1000px;
+.editor-width-browser {
+	width: 900px;
+}
 
+.editor-width-mobile {
+	width: 400px;
 }
 
 .bgcolor {
