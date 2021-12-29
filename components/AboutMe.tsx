@@ -64,9 +64,9 @@ const AboutMe: NextPage = () => {
   }
 
   return (
-    <div className={`${isMobile ?'editor-width-mobile':'editor-width-browser'} left-0 right-0 m-auto`}>
+    <div className={`${isMobile ?'w-5/6':'editor-width-browser'} left-0 right-0 m-auto`}>
 
-    <div className={`flex-col ${isMobile? 'p-2 mt-5':'p-20'} rounded-lg`}>
+    <div className={`flex-col ${isMobile? 'p-2 mt-20':'p-20'} rounded-lg`}>
       {isMobile? '': <div className='editpanel bg-stone-50 drop-shadow-md flex border rounded-lg border-stone-500 m-4'>
         <input
           type="color"
