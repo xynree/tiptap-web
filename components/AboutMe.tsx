@@ -71,7 +71,7 @@ const AboutMe: NextPage = () => {
         <input
           type="color"
           className= 'w-8 m-4'
-          onInput={event => aboutMeEditor.chain().focus().setColor(event.target.value).run()}
+          onInput={event => aboutMeEditor.chain().focus().setColor((event.target as HTMLInputElement).value).run()}
         />
         <button onClick={() => aboutMeEditor?.chain().focus().toggleBold().run()} className=' p-4 '>< img width='12' src='/bold.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().toggleItalic().run()} className=' p-4 '>< img width='18' src='/italic.svg'/></button>
