@@ -78,10 +78,10 @@ const AboutMe: NextPage = () => {
         <button onClick={() => aboutMeEditor?.chain().focus().toggleHeading({ level: 1 }).run()} className=' p-4 '>< img width='18' src='/h1.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().toggleHeading({ level: 2 }).run()} className=' p-4 '>< img width='28' src='/h2.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().toggleBulletList().run()} className=' p-4 '>< img width='18' src='/ul.svg'/></button>
+        <button onClick={() => aboutMeEditor?.chain().focus().toggleOrderedList().run()} className=' p-4 '>< img width='18' src='/ol.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().toggleCodeBlock().run()} className=' p-4 '>< img width='26' src='/code.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().toggleBlockquote().run()} className=' p-4 '>< img width='17' src='/quote.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().setHorizontalRule().run()} className=' p-4 '>< img width='26' src='/hrule.svg'/></button>
-        <button onClick={() => aboutMeEditor?.chain().focus().toggleOrderedList().run()} className=' p-4 '>< img width='18' src='/ol.svg'/></button>
         <button onClick={addImage} className=' p-4 '>< img width='20' src='/image.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().undo().run()} className=' p-4 '>< img width='18' src='/undo.svg'/></button>
         <button onClick={() => aboutMeEditor?.chain().focus().redo().run()} className=' p-4 '>< img width='18' src='/redo.svg'/></button>
