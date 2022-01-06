@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import React, { useCallback } from 'react'
+import React, { useCallback, useEffect } from 'react'
 import { useEditor, EditorContent } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import Image from '@tiptap/extension-image'
@@ -62,6 +62,7 @@ const AboutMe: NextPage = () => {
   if (!aboutMeEditor) {
     return null
   }
+
 
   return (
     <div className={`${isMobile ?'w-7/8':'editor-width-browser'} left-0 right-0 m-auto`}>
