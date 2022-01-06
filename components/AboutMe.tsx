@@ -89,6 +89,8 @@ const AboutMe: NextPage = () => {
       </div>}
 
       <EditorContent editor={aboutMeEditor} spellCheck="false" className='nofocus ml-4 mr-4 border border-stone-500 rounded-lg p-10 bg-stone-50 drop-shadow-lg'/>
+
+
       </div>
       </div>
 
