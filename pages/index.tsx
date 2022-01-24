@@ -13,11 +13,8 @@ const Home: NextPage = () => {
         <meta name="description" content="hi i'm xinrui!" />
       </Head>
       <main>
-        <div className='md:flex'>
+        <div className='flex-col'>
           {/* <div className='md:w-1/4 md:h-screen md:bg-blue-500'></div> */}
-
-
-
           <img src='./scribble4l.svg' className='fixed  scale-200  top-0 -left-36 w-screen scale-200' ></img>
           <img src='./scribble4l.svg' className='fixed transform rotate-45 scale-200  -top-96 left-96 lg:w-screen h-screen scale-200' ></img>
 

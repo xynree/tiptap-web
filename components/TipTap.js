@@ -10,7 +10,7 @@ const Tiptap = () => {
   })
 
   return (
-    <EditorContent editor={editor} />
+    <EditorContent editor={editor}/>
   )
 }
 
