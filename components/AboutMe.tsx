@@ -15,8 +15,12 @@ export const aboutMeContent = `
   I am an artist & programmer based in <b>Seattle, WA.</b> 
 </p>
 <hr>
-
-scribbling, watching the clouds go by 
+*
+**
+scribbling & watching the clouds go by 
+***
+**
+<hr>
 
 <p>
   <b>Contact:</b>
