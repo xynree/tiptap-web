@@ -100,7 +100,6 @@ const AboutMe: NextPage = () => {
 
 
       </div>
-      <img src='./webring.png' className='left-24 w-12'></img>
 
       </div>
 
