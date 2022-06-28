@@ -17,20 +17,18 @@ export const aboutMeContent = `
 <hr>
 *
 **
-scribbling & watching the clouds go by 
+scribbling & watching the clouds go by :)
 ***
 **
 <hr>
 
-<p>
-  <b>Contact:</b>
   <ul>
-  <li><a href='http://instagram.com/xynree'>insta</a></li>
+  <li><a href='https://comics.xinrui.work'>diary</a></li>
+  <li><a href='http://instagram.com/xynree'>art</a></li>
   <li><a href='https://github.com/xynree'>github</a></li>
-  <li><a href='https://www.linkedin.com/in/xynree/'>linkedin</a></li>
   <li><a href='mailto:xynree@gmail.com'>email</a></li>
   </ul>
-</p>
+
 `
 
 const AboutMe: NextPage = () => {
