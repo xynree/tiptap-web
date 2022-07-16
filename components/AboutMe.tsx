@@ -9,26 +9,27 @@ import { Color } from '@tiptap/extension-color'
 import { useMediaQuery } from 'react-responsive'
 
 export const aboutMeContent = `
-<cod>Hello, World! :)</cod>
-<p>My name is <b>Xinrui Chen</b>, pronounced <i>/sin - ree/</i>.</p>
+<p>hi, i'm xinrui! pronounced <i>/sin - ree/</i>.</p>
 <p>
-  I am an artist & programmer based in <b>Seattle, WA.</b> 
+  i'm an artist & developer based in <b>seattle, wa.</b> 
 </p>
-<hr>
+<hr>*
+**<br>
+<br>
+rolling from burger to brewery to bahn mi<br>
+on my $100 bike off craigslist<br>
+doing the city stuff <br>
+wiggle waggle <br>
+<br>
+**
 *
-**
-scribbling & watching the clouds go by :)
-***
-**
 <hr>
-
   <ul>
   <li><a href='https://comics.xinrui.work'>diary</a></li>
   <li><a href='http://instagram.com/xynree'>art</a></li>
   <li><a href='https://github.com/xynree'>github</a></li>
   <li><a href='mailto:xynree@gmail.com'>email</a></li>
   </ul>
-
 `
 
 const AboutMe: NextPage = () => {
