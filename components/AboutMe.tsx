@@ -9,9 +9,9 @@ import { Color } from '@tiptap/extension-color'
 import { useMediaQuery } from 'react-responsive'
 
 export const aboutMeContent = `
-<h1>hi, i'm xinrui! pronounced <i>/sin - ree/</i>.</h1>
+<h1>hi, i'm xinrui~<br> pronounced <i>/sin - ree/</i>.</h1>
 <p>
-  i'm an artist & developer based in <b>seattle, wa.</b> 
+  i'm an artist & developer based in <b>seattle, wa!</b> 
 </p>
 <hr>*
 **<br>
