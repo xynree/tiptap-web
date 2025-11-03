@@ -9,16 +9,16 @@ import { Color } from "@tiptap/extension-color"
 import { useMediaQuery } from "react-responsive"
 
 export const aboutMeContent = `
-<h2>hi, i'm xinrui~<br> pronounced <i>/sin - ree/</i>.</h2>
+<h2>hi, i'm xinrui~<br> pronounced <i>/sin - ree/</i> !</h2>
 <p>
-  i'm an artist & ux developer based in <b>seattle, wa!</b> 
+  i'm a ui/ux engineer & artist based in <b>seattle, wa</b> 󠁯•󠁏 <br> 
+  slumming around capitol hill with <a href='https://znschaffer.com'>zane</a>
 </p>
 <hr>*
 **<br>
 <br>
-biking from burger to brewery to bahn mi<br>
-doing the seattle stuff w/ <a href="https://zane.town/">zane</a><br>
-wiggle waggle <br>
+currently looking for fresh new opportunities of all sorts!<br>
+<a href='mailto:xynree@gmail.com'>contact me</a> if you have some ideas <br>or would just like to chat ☺︎<br>
 <br>
 **
 *
@@ -27,7 +27,7 @@ wiggle waggle <br>
   <li><a href='https://comics.xinrui.work'>diary</a></li>
   <li><a href='http://instagram.com/xynree'>art</a></li>
   <li><a href='https://github.com/xynree'>github</a></li>
-  <li><a href='mailto:xynree@gmail.com'>email</a></li>
+  <li><a href='https://www.linkedin.com/in/xinruichen7/'>linkedin</a></li>
   </ul>
 `
 
